@@ -1,0 +1,20 @@
+{
+    "name": "papepapes/lorem-data-service-provider",
+    "description": "Faker Service provider for Silex",
+    "keywords": ["php", "faker", "lorem", "fixture"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mamadou GUEYE",
+            "email": "papepapes@gmail.com"
+        }
+    ],
+    "require": {
+        "fzaninotto/Faker": "1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Papepapes": "src/"
+        }
+    }
+}
